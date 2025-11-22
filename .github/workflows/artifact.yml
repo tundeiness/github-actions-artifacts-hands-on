@@ -27,7 +27,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: download text file
+    - name: Download text file
       uses: actions/download-artifact@v5
       with:
         name: hello-artifact
